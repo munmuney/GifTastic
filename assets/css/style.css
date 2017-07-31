@@ -1,0 +1,79 @@
+/*----------Importing Google Fonts----------*/
+@import url("https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower|Walter+Turncoat");
+
+body {
+	background-image: url("https://twoloves.files.wordpress.com/2013/03/pswkor_5955.jpg");
+	background-size: 100% 110%;
+	background-attachment: fixed;
+}
+
+/*----------GifTastic----------*/
+h1 {
+	text-align: center;
+	font-family: "Walter Turncoat";
+	font-weight: bold;
+	font-size: 52px;
+	color: white;
+	padding: 30px;
+	text-shadow: 4px 4px black;
+}
+
+/*----------Panel----------*/
+.panel.panel-default {
+	font-family: "Architects Daughter";
+	position: fixed;
+	width: 29%;
+	font-size: 19px;
+}
+
+#button-title {
+	margin-left: 25px;
+}
+
+label {
+	margin: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*----------Buttons----------*/
+.gif-button {
+	margin: 10px;
+	border: none;
+	background-color: #fdfd96;
+	padding: 5px 10px;
+	font-family: "Indie Flower";
+	font-weight: bold;
+	border-radius: 10%;
+    font-size: 16px;
+}
+
+button:hover {
+	background-color: #fcde49;
+}
+
+button:active {
+  background-color: #fcde49;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ 
+/*----------Gifs appear here----------*/
+h2 {
+	text-align: center;
+	color: white;
+	font-family: "Architects Daughter";
+	text-shadow: 4px 4px black;
+}
+
+/*----------Gifs----------*/
+h3 {
+	text-align: center;
+	color: white;
+	font-family: "Architects Daughter";
+	margin-top: 5	0px;
+}
+img {
+  	display: block;
+ 	margin: auto;
+}

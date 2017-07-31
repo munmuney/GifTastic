@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class = "container">
+    <h1>GifTastic</h1>
+    
+    <!-- Buttons will Get Dumped Dere -->
+
+
+    <div class = "row">
+
+      <div class = "col-sm-8">
+        <h2>=====Gif Below=====</h2>
+        <!-- Gifs -->
+        <div id = "gifs-appear-here"></div>
+      </div>
+
+
+      <div class = "col-sm-4">
+        <!-- Panels -->
+        <div class="panel panel-default">
+          <div class="panel-body">  
+            <!-- Add Subject here -->
+            <form id="gif-form">
+              <label for="gif-input">Add a Food: </label>
+              <input type="text" id="gif-input"><br>
+              <input id="add-gif" type="submit" value="FEED ME">
+            </form>
+          </div>
+          <!-- Buttons -->
+          <label id = "button-title">Buttons: </label>
+          <div id = "buttons-view"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="assets/javascript/gif.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</html>
