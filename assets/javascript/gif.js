@@ -99,6 +99,9 @@ $("#add-gif").on("click", function(event) {
 
   //-----calls renderButtons-----//
   renderButtons();
+
+  //-----clears the textbox-----//
+  $("#gif-input").val("");
 });
 
 
