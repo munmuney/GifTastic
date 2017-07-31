@@ -32,7 +32,7 @@ function displayGif() {
   console.log("Food button clicked: " + addGif);
 
   //-----API key for url-----//
-  var APIKey = "dc6zaTOxFJmzC";
+  var APIKey = "c3a144a54c8647b8b510e1624cb9ca15";
 
   //-----url that will be called-----//
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + addGif + "&limit=10&api_key=" + APIKey;
