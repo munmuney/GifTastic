@@ -14,8 +14,11 @@ h1 {
 	font-weight: bold;
 	font-size: 52px;
 	color: white;
-	padding: 30px;
+	padding: 20px;
 	text-shadow: 4px 4px black;
+	background-color: #73d793;
+	border-radius: 10px;
+	margin-bottom: 50px;
 }
 
 /*----------Panel----------*/
@@ -30,6 +33,22 @@ h1 {
 	margin-left: 25px;
 }
 
+#add-gif {
+	border-radius: 5%;
+	border:none;
+	background-color: #e5d6d5;
+}
+
+#add-gif:hover {
+	background-color: #cec0bf;	
+}
+
+#add-gif:active {
+  	box-shadow: 0 5px lightgray;
+	transform: translateY(3px);
+
+}
+
 label {
 	margin: 10px;
 	text-align: center;
@@ -40,7 +59,7 @@ label {
 .gif-button {
 	margin: 10px;
 	border: none;
-	background-color: #fdfd96;
+	background-color: #73d793;
 	padding: 5px 10px;
 	font-family: "Indie Flower";
 	font-weight: bold;
@@ -49,13 +68,13 @@ label {
 }
 
 button:hover {
-	background-color: #fcde49;
+	background-color: #37c666;
 }
 
 button:active {
-  background-color: #fcde49;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  background-color: #37c666;
+  box-shadow: 0 5px lightgray;
+  transform: translateY(3px);
 }
  
 /*----------Gifs appear here----------*/
