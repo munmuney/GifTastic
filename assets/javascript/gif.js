@@ -35,7 +35,7 @@ function displayGif() {
   var APIKey = "dc6zaTOxFJmzC";
 
   //-----url that will be called-----//
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + addGif + "&limit=10&api_key=" + APIKey;
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + addGif + "&limit=10&api_key=" + APIKey;
   console.log("URL: " + queryURL);
 
   //----------ajax is calling the url----------//
